@@ -1,0 +1,39 @@
+$bp-tablet: 768px;
+$bp-phone: 510px;
+$bp-littlephone: 430px;
+
+@media (max-width: $bp-tablet) {
+    #chessboard {
+        width: 480px;
+        height: 480px;
+
+        .square {
+            width: 60px;
+            height: 60px;
+        }
+    } 
+}
+
+@media (max-width: $bp-phone) {
+    #chessboard {
+        width: 400px;
+        height: 400px;
+
+        .square {
+            width: 50px;
+            height: 50px;
+        }
+    } 
+}
+
+@media (max-width: $bp-littlephone) {
+    #chessboard {
+        width: 320px;
+        height: 320px;
+
+        .square {
+            width: 40px;
+            height: 40px;
+        }
+    } 
+}

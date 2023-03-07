@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #312e2b;
+}
+
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+
+    @for $i from 1 through 64 {
+        @if ($i > 8 and $i <= 16) or ($i > 24 and $i <= 32) or ($i > 40 and $i <= 48) or ($i > 56 and $i <= 64) {
+            @if ($i % 2) == 1 {
+                .square:nth-child(#{$i}) {
+                    background-color: #769656;
+                }
+            } @else {
+                .square:nth-child(#{$i}) {
+                    background-color: #eeeed2;
+                }
+            }
+        } @else if ($i % 2) == 0 {
+            .square:nth-child(#{$i}) {
+                background-color: #769656;
+            }
+        } @else {
+            .square:nth-child(#{$i}) {
+                background-color: #eeeed2;
+            }
+        }
+    }
+
+    .square {
+        width: 70px;
+        height: 70px;
+    }
+
+    .square img {
+        width: 100%;
+    }
+
+    .move {
+        background-image: url(../img/mo.png);
+        background-size: 90%;
+        background-position: center;
+    }
+}

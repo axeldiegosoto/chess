@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #312e2b;
+}
+
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  width: 560px;
+  height: 560px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#chessboard .square:nth-child(1) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(2) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(3) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(4) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(5) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(6) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(7) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(8) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(9) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(10) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(11) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(12) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(13) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(14) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(15) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(16) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(17) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(18) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(19) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(20) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(21) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(22) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(23) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(24) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(25) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(26) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(27) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(28) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(29) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(30) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(31) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(32) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(33) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(34) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(35) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(36) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(37) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(38) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(39) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(40) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(41) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(42) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(43) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(44) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(45) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(46) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(47) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(48) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(49) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(50) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(51) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(52) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(53) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(54) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(55) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(56) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(57) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(58) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(59) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(60) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(61) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(62) {
+  background-color: #eeeed2;
+}
+#chessboard .square:nth-child(63) {
+  background-color: #769656;
+}
+#chessboard .square:nth-child(64) {
+  background-color: #eeeed2;
+}
+#chessboard .square {
+  width: 70px;
+  height: 70px;
+}
+#chessboard .square img {
+  width: 100%;
+}
+#chessboard .move {
+  background-image: url(../img/mo.png);
+  background-size: 90%;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #chessboard {
+    width: 480px;
+    height: 480px;
+  }
+  #chessboard .square {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 510px) {
+  #chessboard {
+    width: 400px;
+    height: 400px;
+  }
+  #chessboard .square {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 430px) {
+  #chessboard {
+    width: 320px;
+    height: 320px;
+  }
+  #chessboard .square {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
